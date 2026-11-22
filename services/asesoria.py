@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # services/asesoria.py
 from models.servicio import Servicio
 from exceptions.excepciones import ServicioInvalidoError
@@ -21,3 +22,6 @@ class Asesoria(Servicio):
 
     def describir(self):
         return f"Asesoría '{self.nombre}' nivel {self._nivel} - ${self._tarifa_base:,.0f}/hora"
+=======
+
+>>>>>>> 5073abf957aa3d2c45f87eddf12b3071b1284540

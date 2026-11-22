@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # services/reserva_salas.py
 from models.servicio import Servicio
 from exceptions.excepciones import ServicioInvalidoError
@@ -19,3 +20,6 @@ class ReservaSala(Servicio):
 
     def describir(self):
         return f"Sala '{self.nombre}' ({self._capacidad} personas) - ${self._tarifa_base:,.0f}/hora"
+=======
+
+>>>>>>> 5073abf957aa3d2c45f87eddf12b3071b1284540

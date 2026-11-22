@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # services/alquiler_equipos.py
 from models.servicio import Servicio
 from exceptions.excepciones import ServicioInvalidoError
@@ -19,3 +20,6 @@ class AlquilerEquipo(Servicio):
 
     def describir(self):
         return f"Equipo '{self.nombre}' - ${self._tarifa_base:,.0f}/día ({self._unidades} unidades)"
+=======
+
+>>>>>>> 5073abf957aa3d2c45f87eddf12b3071b1284540
